@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="Sign_Up.css">
+    <script src="Sign_Up.js"></script>
+</head>
+
+<body>
+    <div>
+        <header>
+            <div class="logo">
+                <a href="/Welcome.html" target="_self">
+                    <!--Creat home page-->
+                    <img src="/icon/Logo/logo_transparent.png" alt="logo">
+                </a>
+            </div>
+        </header>
+        <div class="center">
+            <Form name="login" class="box" method="GET" id="SignUp">
+                <div class="image">
+                    <img src="/icon/User/user.png" alt="User" class="avatar">
+                </div>
+                <div>
+                    <input type="text" id="fname" placeholder="First Name" required>
+                    <input type="text" id="mname" placeholder="Middle Name">
+                    <input type="text" id="lname" placeholder="Last Name" required>
+                    <input type="date" id="dob" placeholder="Date of birth" required>
+
+                    <!-- <div class="gender">
+                            <div class="rd">
+                                <input type="radio" id="male" name="gender" placeholder="Male">
+                                <input type="radio" id="female" name="gender" placeholder="Female">
+                                <input type="radio" id="other" name="gender" placeholder="Other">
+                            </div>
+                            <div class="val">
+                                <label for="male">Male</label><br>
+                                <label for="male">Male</label><br>
+                                <label for="male">Male</label>
+                            </div>
+                        </div> -->
+
+                    <input type="tel" id="Mobile" placeholder="Mobile No." required>
+                    <input type="email" id="email" placeholder="Email Id" required>
+                    <input type="password" id="pwd" placeholder="Password" required>
+                    <input type="password" id="cpwd" placeholder="Confirm Password" required>
+
+                </div>
+                <div>
+
+                    <button class="signup" onclick="Signup()">
+                    Sign Up
+                </button>
+                </div>
+                <!-- <div>
+                        <button class="Signup">
+                    <a href="/Login Signup/Signup/Sign_Up.html" target="_self">Sign up
+                    </a>
+                </button>
+                        <p class="new"> New user? </p>
+                        &nbsp;
+                    </div> -->
+            </Form>
+        </div>
+
+    </div>
+</body>
+
+
+
+
+
+<!-- <body>
+    <div>
+        <header>
+            <div class="logo">
+                <a href="#" target="_self">
+                    <img src="/icon/logo_transparent.png" alt="Logo">
+                </a>
+            </div>
+            <div class="center">
+                <form class="box" id="signup" name="signup" method="GET">
+                    <div class="image">
+                        <img src="/icon/User/user.png" alt="User" class="avatar">
+                    </div>
+
+                    <div>
+                        <label for="fname"><b>First Name</b></label>
+                        <input type="text" id="fname" name="fname" placeholder="First Name" required>
+                    </div>
+
+                    <div>
+                        <label for="mname"><b>Middle Name</b></label>
+                        <input type="text" id="mname" name="mname" placeholder="Middle Name">
+
+                    </div>
+                    <div>
+                        <label for="lname"><b>Last Name</b></label>
+                        <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+
+                    </div>
+                    <div>
+                        <label for="dob"><B>Date of Birth </B></label>
+                        <input type="date" id="dob" name="dob" required>
+
+                    </div>
+                    <div>
+                        <b>Gender</b>
+                        <div>
+
+
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Male</label><br>
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">Female</label><br>
+                            <input type="radio" id="other" name="gender">
+                            <label for="other">Other</label>
+
+                        </div>
+                    </div>
+                    <div>
+                        <label for="Mobile"><b>Mobile No.</b></label>
+                        <input type="tel" id="Mobile" name="Mobile" required>
+
+                    </div>
+                    <div>
+                        <label for="email"><b>Email id</b></label>
+                        <input type="email" id="email" name="email" required>
+
+                    </div>
+                    <div>
+                        <label for="pwd"><b>Enter Password<b></label>
+                        <input type="password" id="pwd" name="pwd" required>
+
+                    </div>
+                    <div>
+                        <label for="cpwd"><b>Confirm Password<b></label>
+                        <input type="password" id="cpwd" name="cpwd" required>
+
+                    </div>
+                </form>
+            </div>
+
+        </header>
+    </div>
+</body> -->
+
+</html>
