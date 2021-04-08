@@ -1,0 +1,103 @@
+* {
+    flex: auto;
+    margin: auto;
+    padding: 0%;
+}
+
+body {
+    background: #403a3e;
+    background: linear-gradient(270deg, #403a3e 0%, #be5869 100%);
+}
+
+
+/* .container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+} */
+
+.logo {
+    float: left;
+    padding: 0;
+    background-color: whitesmoke;
+    width: 100px;
+    height: 100px;
+}
+
+.logo img {
+    position: absolute;
+    width: 100px;
+    padding: 0%;
+    top: 0.7%;
+    left: 0.7%;
+    size: 25px;
+}
+
+.fix {
+    clear: both;
+}
+
+.main {
+    /* position: relative; */
+    /* width: 100%;
+    padding: 0%;
+    top: 18%;
+    left: 3%;
+    size: 25px; */
+    background-color: rgb(54, 107, 153);
+    position: absolute;
+    top: 16.5%;
+    left: 0%;
+    height: 5%;
+    /* transform: translate(-50%, -50%); */
+    width: 100%;
+}
+
+.main_menu {
+    /* background-color: teal; */
+    position: relative;
+    width: 100%;
+    left: 0.7%;
+}
+
+.main_menu ul {
+    left: 2%;
+    float: left;
+}
+
+.main_menu ul li {
+    display: inline-block;
+    padding: 0.9%;
+}
+
+.main_menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.main_menu ul li a:hover {
+    background-color: #df9856;
+}
+
+
+/* start checking from here */
+
+.drop {
+    padding: 0%;
+    list-style-type: none;
+    position: relative;
+    display: none;
+}
+
+
+/* .drop li a {
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: transparent;
+}
+
+.drop li a:hover {
+    background-color: aliceblue;
+} */
