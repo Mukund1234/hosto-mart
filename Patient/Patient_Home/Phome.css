@@ -9,6 +9,17 @@ body {
     background: linear-gradient(270deg, #403a3e 0%, #be5869 100%);
 }
 
+.container {
+    /* background-color: teal; */
+    width: 100%;
+    height: 100%;
+}
+
+.container header {
+    width: 100%;
+    height: 125px;
+}
+
 
 /* .container {
     width: 100%;
@@ -17,20 +28,21 @@ body {
 } */
 
 .logo {
+    position: relative;
     float: left;
     padding: 0;
-    background-color: whitesmoke;
-    width: 100px;
+    /* background-color: whitesmoke; */
+    width: 100%;
     height: 100px;
 }
 
 .logo img {
-    position: absolute;
+    position: relative;
     width: 100px;
     padding: 0%;
     top: 0.7%;
     left: 0.7%;
-    size: 25px;
+    /* size: 25px; */
 }
 
 .fix {
@@ -44,30 +56,35 @@ body {
     top: 18%;
     left: 3%;
     size: 25px; */
-    background-color: rgb(54, 107, 153);
+    /* background-color: rgb(54, 107, 153); */
+    background-color: #4c6fa36b;
     position: absolute;
     top: 16.5%;
     left: 0%;
     height: 5%;
-    /* transform: translate(-50%, -50%); */
+    transform: translate(0%, 0%);
     width: 100%;
 }
 
 .main_menu {
     /* background-color: teal; */
-    position: relative;
+    position: initial;
     width: 100%;
     left: 0.7%;
 }
 
 .main_menu ul {
     left: 2%;
+    width: 100%;
     float: left;
+    display: inline-block;
 }
 
 .main_menu ul li {
     display: inline-block;
+    text-align: center;
     padding: 0.9%;
+    width: 10%;
 }
 
 .main_menu ul li a {
@@ -78,17 +95,47 @@ body {
 
 .main_menu ul li a:hover {
     background-color: #df9856;
+    width: 110%;
+    border-radius: 25px;
 }
 
 
 /* start checking from here */
 
-.drop {
+.drop_down {
     padding: 0%;
     list-style-type: none;
     position: relative;
+    height: 100px;
+    width: 10%;
     display: none;
 }
+
+.drop_down ul li {
+    display: none;
+}
+
+.drop_down:hover ul li {
+    display: block;
+    width: 100%;
+}
+
+
+/* .drop_down li {
+    background-color: transparent;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: none;
+} */
+
+
+/* .drop_down li a {
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    width: 100%;
+} */
 
 
 /* .drop li a {
